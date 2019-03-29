@@ -1,0 +1,68 @@
+인터넷 > 웹
+- 전세계를 연결한 네트워크
+
+인터넷이 제공하는 서비스
+- 검색
+- 동영상
+- 메일(smtp)
+- 웹(Web)
+- 파일전송(ftp)
+
+웹
+Client : 사용자(웹브라우저 : Chrome, Firefox, Safari, Internet Explorer...)
+Server : 서비스를 제공하는 컴퓨터(컴퓨터에 서버프로그램을 설치해야 함)
+	- 서버 프로그램 : Apache, IIS(MS)
+
+	서비스요청
+Client ----------------> Server
+          <----------------
+	통신에 필요한 규약 : Protocol(http) 
+
+
+Client Side Program
+- html : 태그로 이루어진 웹에서 사용되는 언어(Client와 Server 사이에서 사용되는 언어)
+	- Hyper Text : 링크
+	- Makeup : 표시(태그 : tag)
+		- ex) <p> </p>
+	- 팀 버너스리(1989)
+	- 텍스트 에디터에서 작성, 웹 브라우저에서 결과를 확인
+- css
+- javascript
+
+Server Side Program
+-php
+- jsp
+- servlet
+
+html5
+1. 반응형웹(웹표준화)
+	- 모든 기기에서 동일하게 보이게
+2. 분리
+	- 문서구조 ; html
+	- 디자인 : CSS
+	- 동적인 기능 : javascript
+3. 대소문자 구분 x
+4. 구조
+	<!doctype html>	//이 문서는 html5로 작성한다.
+		<html>
+			<head>
+				<title>
+				</title>
+			</head>
+			<body>
+			내용
+			</body>
+		</html>
+
+
+client --> server
+	Apache
+	     ↓
+	tomcat(Container) : jsp, php를 java파일로 바꿔주는 것
+
+
+주소(도메인(영어)) ↔ IP(숫자)
+
+http://localhost:8080
+	↕ 		DNS : 도메인이나 호스트 이름을 숫자로 된 IP 주소로 해석해주는 서비스
+http://127.0.0.1:8080	//포트번호(port) : 8080
