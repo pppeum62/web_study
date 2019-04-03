@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table border>
+            <caption><h2>회원가입</h2></caption>
+            <colgroup><col bgcolor="#ccccff"></colgroup>
+            <tr>
+                <td>아이디</td>
+                <td><input type="text" name="id"> <button type="submit">중복확인</button></td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>성별</td>
+                <td><input type="radio" name="sex">남<input type="radio" name="sex">여</td>
+            </tr>
+            <tr>
+                <td>암호</td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td>암호확인</td>
+                <td><input type="password" name="pass"> +같은 암호를 입력하세요</td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type="text" name="email">@<input type="text" name="email">
+                    <select>
+                        <option>naver.com</option>
+                        <option>hanmail.net</option>
+                        <option>gmail.com</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>주소</td>
+                <td><input type="text" name="adress"> <button type="button">주소찾기</button></td>
+            </tr>
+            <tr>
+                <td>휴대폰</td>
+                <td>
+                    <input type="radio" name="tel">SKT
+                    <input type="radio" name="tel">KT
+                    <input type="radio" name="tel">LGU+<br>
+                    <select>
+                        <option>010</option>
+                        <option>011</option>
+                        <option>031</option>
+                    </select>
+                     - <input type="text" size="2"> - <input type="text" size="2">
+                </td>
+            </tr>
+            <tr>
+                <td>관심</td>
+                <td>
+                    <input type="checkbox" name="ch">쇼핑
+                    <input type="checkbox" name="ch">게임
+                    <input type="checkbox" name="ch">여행
+                    <input type="checkbox" name="ch">기타
+                </td>
+            </tr>
+            <tr>
+                <td>자기소개</td>
+                <td>
+                    <textarea rows=10 cols=80 name=“txt”></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="#ffffff">
+                    <button type="submit">확인</button>
+                    &nbsp;<button type="reset">다시입력
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
