@@ -7,28 +7,33 @@
         <table border>
             <caption><h2>회원가입</h2></caption>
             <colgroup><col bgcolor="#ccccff"></colgroup>
+            <style>
+                .a{
+                    background-color:yellowgreen;
+                }
+            </style>
             <tr>
-                <td>아이디</td>
+                <td class="a">아이디</td>
                 <td><input type="text" name="id"> <button type="submit">중복확인</button></td>
             </tr>
             <tr>
-                <td>이름</td>
+                <td class="a">이름</td>
                 <td><input type="text"></td>
             </tr>
             <tr>
-                <td>성별</td>
+                <td class="a">성별</td>
                 <td><input type="radio" name="sex">남<input type="radio" name="sex">여</td>
             </tr>
             <tr>
-                <td>암호</td>
+                <td class="a">암호</td>
                 <td><input type="password" name="pass"></td>
             </tr>
             <tr>
-                <td>암호확인</td>
+                <td class="a">암호확인</td>
                 <td><input type="password" name="pass"> +같은 암호를 입력하세요</td>
             </tr>
             <tr>
-                <td>이메일</td>
+                <td class="a">이메일</td>
                 <td><input type="text" name="email">@<input type="text" name="email">
                     <select>
                         <option>naver.com</option>
@@ -37,11 +42,11 @@
                     </select></td>
             </tr>
             <tr>
-                <td>주소</td>
+                <td class="a">주소</td>
                 <td><input type="text" name="adress"> <button type="button">주소찾기</button></td>
             </tr>
             <tr>
-                <td>휴대폰</td>
+                <td class="a">휴대폰</td>
                 <td>
                     <input type="radio" name="tel">SKT
                     <input type="radio" name="tel">KT
@@ -55,7 +60,7 @@
                 </td>
             </tr>
             <tr>
-                <td>관심</td>
+                <td class="a">관심</td>
                 <td>
                     <input type="checkbox" name="ch">쇼핑
                     <input type="checkbox" name="ch">게임
@@ -64,7 +69,7 @@
                 </td>
             </tr>
             <tr>
-                <td>자기소개</td>
+                <td class="a">자기소개</td>
                 <td>
                     <textarea rows=10 cols=80 name=“txt”></textarea>
                 </td>
