@@ -10,7 +10,6 @@
                 width:80px;
             }
             table{
-                margin-left: 32.5%;
                 border-style: dotted;
                 border-width: 1px;
             }
@@ -22,9 +21,11 @@
     </head>
     <body>
         <h2>즐거운 ㅁiㄹiㅁ ㄹrOi프</h2>
-        <img src="img/charlie.jpg" height="250px">
-        <table>
-            <tr>
+        <img src="img/charlie.jpg" height="220px">
+        <table align="center">
+            <col>
+            <colgroup>
+            <tr bgcolor="#dab6ff">
                 <td> </td>
                 <td>월</td>
                 <td>화</td>
@@ -32,61 +33,58 @@
                 <td>목</td>
                 <td>금</td>
             </tr>
+            </colgroup>
             <tr>
-                <td>1</td>
-                <td>DBP</td>
-                <td>JAVA</td>
+                <td bgcolor="#dab6ff">1</td>
+                <td rowspan="2" bgcolor="#f2e6ff">DBP</td>
+                <td rowspan="2" bgcolor="#f2e6ff">JAVA</td>
                 <td>영어</td>
                 <td>수학</td>
                 <td>영어</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>DBP</td>
-                <td>JAVA</td>
+                <td bgcolor="#dab6ff">2</td>
                 <td>수학</td>
                 <td>과학</td>
-                <td>웹표준화</td>
+                <td rowspan="2" bgcolor="#f2e6ff">웹표준화</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>C++</td>
+                <td bgcolor="#dab6ff">3</td>
+                <td rowspan="2" bgcolor="#f2e6ff">C++</td>
                 <td>영어</td>
-                <td>웹표준화</td>
-                <td>DS</td>
-                <td>웹표준화</td>
+                <td rowspan="2" bgcolor="#f2e6ff">웹표준화</td>
+                <td rowspan="2" bgcolor="#f2e6ff">DS</td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>C++</td>
+                <td bgcolor="#dab6ff">4</td>
                 <td>국어</td>
-                <td>웹표준화</td>
-                <td>DS</td>
                 <td>과학</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td bgcolor="#dab6ff">점심시간</td>
+                <td colspan="5">12:10 - 13:10</td>
+            </tr>
+            <tr>
+                <td bgcolor="#dab6ff">5</td>
                 <td>체육</td>
                 <td>수학</td>
                 <td>과학</td>
-                <td>DBP</td>
+                <td bgcolor="#f2e6ff">DBP</td>
                 <td>수학</td>
             </tr>
             <tr>
-                <td>6</td>
-                <td>디자인일반</td>
+                <td bgcolor="#dab6ff">6</td>
+                <td bgcolor="#f2e6ff">디자인일반</td>
                 <td>창체</td>
-                <td></td>
+                <td rowspan="2">CA</td>
                 <td>창체</td>
-                <td>C++</td>
+                <td rowspan="2" bgcolor="#f2e6ff">C++</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td bgcolor="#dab6ff">7</td>
                 <td>국어</td>
-                <td>DS</td>
-                <td></td>
-                <td>JAVA</td>
-                <td>C++</td>
+                <td bgcolor="#f2e6ff">DS</td>
+                <td bgcolor="#f2e6ff">JAVA</td>
             </tr>
         </table>
     </body>
