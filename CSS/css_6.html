@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>형제 선택자</title>
+        <style>
+            h1 + ul{ /*바로 아래 한 개의 ul만 선택*/
+                color: white;
+                background-color: skyblue;
+                font-size: 16pt;
+            }
+
+            h1 ~ul{/* 바로 아래 모든 ul 선택*/
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="container">
+            <h1>예약 방법 및 요금</h1>
+            <ul>
+                <li>직접 예약</li>
+                <li>전화 남기기</li>
+                <li>문자 남기기</li>
+            </ul>
+            <ul>
+                <li>1인 : 30,000원</li>
+                <li>2인 : 50,000원</li>
+                <li>3일 : 80,000원</li>
+            </ul>
+        </section>
+    </body>
+</html>

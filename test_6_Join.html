@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                text-align:center;
+            }
+
+            table{
+                text-align: left;
+            }
+
+            td{
+                height: 50px;
+                width: 150px;
+            }
+
+            #a{
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>회원가입</h2>
+        <form>
+            <table align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>아이디</td>
+                    <td id="a"><input type="text">&nbsp;<input type="button" value="중복확인"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td id="a"><input type="password" style="width:232px;"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호 재확인</td>
+                    <td id="a"><input type="password" style="width:232px;"></td>
+                </tr>
+                <tr>
+                    <td>이름</td>
+                    <td id="a"><input type="text" style="width:232px;" id=name></td>
+                </tr>
+                <tr>
+                    <td>생년월일</td>
+                    <td id="a"><input type="text" placeholder="년(4자)" style="width:72px">
+                        <select style="width:72px; height: 23px;">
+                            <option selected="월">월</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <input type="text" placeholder="일" style="width:72px">
+                    </td>    
+                </tr>
+                <tr>
+                    <td>성별</td>
+                    <td id="a">
+                        <select style="height: 23px; width:232px;">
+                            <option selected="성별">성별</option>
+                            <option>남자</option>
+                            <option>여자</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>휴대전화</td>
+                    <td id="a"><input type="text" placeholder="전화번호 입력" style="width:232px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br>
+                        <input type="submit" value="가입하기" style="width:390px; height: 40px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    <script>
+        windows.onsubmit = alt;
+
+        function alt(){
+            var name = document.getElementById("name").value;
+            alert(name+"님의 회원가입이 완료되었습니다!");
+        }
+    </script>
+</html>
