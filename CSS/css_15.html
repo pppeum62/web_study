@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            h3 +ul{
+                border: 2px solid salmon;
+            }
+
+            h3 ~ul{
+                background-color: plum;
+            }
+
+            [class~="button"]{
+                border: 2px solid yellowgreen;
+            }
+
+            a[title |= "us"]{
+                background: forestgreen;
+                border: 3px solid red;
+            }
+
+            a[title ^= "jap"]{
+                background: hotpink;
+            }
+
+            a[title ^= "ch"]{
+                background: skyblue;
+            }
+
+            a[title $= "g"]{
+                background: khaki;
+            }
+
+            a[href $= "hwp"]{
+                background: lavender;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h3>예약 방법 및 요금</h3>
+            <ul>
+                <li>직접 통화</li>
+                <li>음성 남기기</li>
+            </ul>
+            <ul>
+                <li>1인 : 30000</li>
+                <li>2인 : 50000</li>
+                <li>3인 : 100000</li>
+            </ul>
+        </div>
+
+        <hr>
+        <ul>
+            <li><a href="#" target="_blank">집으로</a></li>
+            <li><a href="#" class="button">게시판</a></li>
+            <li><a href="#" class="flat button">방명록</a></li>
+        </ul>
+
+        <hr>
+        <h3>외국어 서비스</h3>
+        <ul>
+            <li><a href="#" title="us">영어</a></li>
+            <li><a href="#" title="us-english">영어33</a></li>
+            <li><a href="#" title="eng">영어5</a></li>
+            <li><a href="#" title="jap-anese">일본어</a></li>
+            <li><a href="#" title="chi">중국어</a></li>
+        </ul>
+
+        <hr>
+        <h3>파일 서비스</h3>
+        <ul>
+            <li><a href="a.hwp">hwp</a></li>
+            <li><a href="b.xls">엑셀 파일</a></li>
+        </ul>
+    </body>
+</html>

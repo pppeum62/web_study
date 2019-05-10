@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                text-align: center;
+            }
+
+            table{
+                border-style: solid none;
+                border-width: 3px;
+                border-color: black;
+                border-collapse: collapse;
+            }
+
+            td{
+                width: 130px;
+                background-color: #8080ff;
+            }
+            
+            .c0{
+                border-left-style: solid;
+                border-left-color:#e6e6ff;
+            }
+
+            .c4{
+                border-right-style: solid;
+                border-right-color: #e6e6ff;
+            }
+
+            th{
+                border-bottom-width: 2px;
+                border-color: black;
+                background-color: #e6e6ff;
+            }
+
+            td:hover{
+                background-color: #ffff99;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" height="250">
+            <caption>수업시간표</caption>
+            <thead>
+                <tr height="40">
+                    <th class="c0">시간/요일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th class="c4">목</th>
+                </tr> 
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td class="c0">1</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td rowspan="3" class="c4">CSS</td>
+                </tr>
+                <tr>
+                    <td class="c0">2</td>
+                    <td rowspan="2">HTML5</td>
+                    <td>&nbsp;</td>
+                    <td class="c4">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="c0">3</td>
+                    <td>&nbsp;</td>
+                    <td class="c4">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="c0">4</td>
+                    <td>&nbsp;</td>
+                    <td colspan="2">JavaScript</td>
+                    <td class="c4">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="c0">5</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td class="c4">&nbsp;</td>
+                </tr>  
+            </tbody>
+        </table>
+    </body>
+</html>
