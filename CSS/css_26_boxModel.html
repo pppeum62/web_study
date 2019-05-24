@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            #content{
+                border: 1px solid blue;
+                width: 1200px;
+                height: 700px;
+                margin: 0 auto;
+            }
+
+            header{
+                border: 1px solid red;
+                height: 150px;
+                background-color: salmon;
+                text-align: center;
+                line-height: 100px;
+            }
+
+            .inner section{
+                border: 1px solid green;
+                float: left;
+                width: 400px;
+                height: 350px;
+                box-sizing: border-box;
+            }
+
+            footer{
+                border: 1px solid blueviolet;
+                width: 1200px;
+                height: 100px;
+                box-sizing: border-box;
+                clear: both;
+            }
+
+            nav{
+                height: 100px;
+                width: 1200px;
+                background-color: orange;
+                float: left;
+            }
+
+            ul{
+                text-align: center;
+                line-height: 70px;
+            }
+
+            li{
+                display: inline;
+            }
+
+            a:link{
+                text-decoration: none;
+                color:black;
+            }
+
+            a:hover{
+                background-color: white;
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <header><h1>Hot Movie</h1></header>
+            <nav>
+                <ul>
+                    <li><a href="#">어린왕자</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="#">걸캅스</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="#">아이언맨</a></li>
+                </ul>
+            </nav>
+            <div class="inner">
+                <section>section1</section>
+                <section>section2</section>
+                <section>section3</section>
+            </div>
+            <footer>
+                <address>
+                    Copyright by P, Seoul, Korea
+                </address>
+            </footer>
+        </div>
+    </body>
+</html>
